@@ -15,7 +15,7 @@ namespace Backpropagation
     {
 
         NeuralNet nn;
-        int minHiddenLayers = 100;
+        int minHiddenLayers = 1;
         int minEpochs = 5120;
 
         public _4AND()
