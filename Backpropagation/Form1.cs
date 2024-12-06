@@ -7,14 +7,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Backprop;
 
 namespace Backpropagation
 {
     public partial class Form1 : Form
     {
+       
         public Form1()
         {
             InitializeComponent();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            _2OR or = new _2OR();
+            or.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            _4AND and = new _4AND();
+            and.Show();
         }
     }
 }
